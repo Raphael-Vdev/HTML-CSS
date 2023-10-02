@@ -1,0 +1,52 @@
+.Carre01 {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: blue;
+    text-align: center;
+  }
+
+  .Carre02 {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    text-align: center;
+}
+
+.Carre03 {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(160, 14, 26);
+    text-align: center;
+  }
+
+.Carre04 {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(15, 165, 211);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+.bleu {
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: blue;
+    }
+
+.jaune {
+    height: 50px;
+    width: 20px;
+    margin: 20px;
+    background-color: yellow;
+  }
