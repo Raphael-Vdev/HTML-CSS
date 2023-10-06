@@ -1,0 +1,78 @@
+.fond{
+    height: 550px;
+    width: 100%;
+    background: blueviolet;
+}
+
+.ligne1{
+    display:flex;
+    height: 100px;
+    width: 90%;
+
+}
+
+.carre1{
+    height: 100px;
+    width: 45%;
+    background:rgb(255, 106, 7);
+    margin-right:10%;
+}
+
+.carre2{
+    height: 100px;
+    width: 45%;
+    background:gray;
+}
+
+.ligne2{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.carre3{
+    height: 100px;
+    width: 100%;
+    background: rgb(239, 174, 9);
+}
+
+.ligne3{
+    text-align: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.carre4{
+    height: 100px;
+    width: 20%;
+    background:rgb(128, 128, 128);
+    margin-right: 5%;
+}
+
+.ligne4{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.carre5{
+    height:100px;
+    width: 45%;
+    background: rgb(239, 174, 9);
+    margin-right: 5px;
+}
+
+.ligne5{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.carre6{
+    height: 100px;
+    width: 100%;
+    background: rgb(29, 168, 21);
+}
