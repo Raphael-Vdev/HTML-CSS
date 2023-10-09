@@ -1,51 +1,231 @@
 *{
-    background: gray;
+    /* background: rgb(255, 255, 255); */
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-.nav{
-    background-color: rgba(19, 19, 19, 0);
-    
-}
-
-
 .sidebar{
-    padding: 4px;
-    height: 30px;
-    align-content: top;
-    align-items: center;
+    background-color: #ffffff;  /*Couleur de fond blanche */
+    text-align: center; /*Centrer le contenu horizontalement */
+    padding: 0px 0; /* Espacement intérieur (haut/bas, gauche/droite) */
+}
+
+.bouton1 {
+    background-color: #ffffff; /* Couleur de fond du bouton */
+    color: #000000; /* Couleur du texte */
+    padding: 20px 50px; /* Espacement intérieur du bouton (haut/bas, gauche/droite) */
+    margin: 0px 0px;
+    border: none; /* Supprimer la bordure par défaut du bouton */
+    border-radius: 0px; /* Coins arrondis */
+    text-align: center; /* Centrer le texte horizontalement */
+    text-decoration: none; /* Supprimer les soulignements du lien (si utilisé dans un lien) */
+    display: inline-block; /* Faire en sorte que le bouton soit un élément en ligne (plutôt qu'en bloc) */
+    font-size: 16px; /* Taille de la police */
+    font-weight: bold;
+}
+
+.bouton1:hover {
+    background-color: #ccc; /* Couleur de fond au survol */
+}
+
+.banniere{
     display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    width: 100%; /* Largeur de la div */
+    height: 250px; /* Hauteur de la div */
+    background-size: cover; /* Redimensionner l'image pour couvrir la zone */
+    background-position: center; /* Centrer l'image horizontalement et verticalement */
 }
 
-ul{
-    display: center;
-    list-style-type: none;
-    display: inline flex;
-    margin-top: auto;
+.image-fond{
+    position: relative; /* Permet d'ajuster les éléments enfants par rapport à cette div */
+    width: 100%; /* Largeur de la div */
+    height: 250px;  /*Hauteur de la div */
+    background-size: cover; /* Redimensionner l'image de fond pour couvrir la div */
+    background-position: center center; /* Centrer l'image de fond horizontalement et verticalement */
 }
 
-li a{
-    cursor: pointer;
+.image-texte{
+    position: absolute; /* Permet de positionner cet élément par rapport au div parent */
+    max-width: 100%;
 }
 
-.img_1{
+a{
+    text-decoration: none;
+}
+
+.Abloc{
+    background-color:transparent;
     display: flex;
-    margin-left: auto;
+    margin-top: 30px;
     margin-right: auto;
-}
-
-.img_2{
-    display: flex;
     margin-left: auto;
+    width: 780px;
+    height: 450px;
+}
+
+.Abloc1{
+    background-color: #ccc;
+    display: flex;
+    width: 380px;
+    position: relative; /* Permet d'ajuster les éléments enfants par rapport à cette div */
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 15px;
+}
+
+.Abloc2{
+    background-color: #ccc;
+    display: flex;
+    width: 380px;
+    position: relative; /* Permet d'ajuster les éléments enfants par rapport à cette div */
+}
+.image-photo{
+    position: absolute; /* Permet de positionner cet élément par rapport au div parent */
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+/*<------------------------------------------- \/ Bblock \/ -------------------------------------------------->*/
+
+.Bbloc{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
     margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 450px;
+    justify-content: center; /* Centre horizontalement le contenu */
 }
 
-
-.titre{
-    text-align: center ;
-    display: inline flex;
-    margin-left: 30px;
-    margin-right: 30px;
+.image-fond2{
+    position: absolute; /* Permet d'ajuster les éléments enfants par rapport à cette div */
+    width: 100%; /* Largeur de la div */
+    background-size: cover; /* Redimensionner l'image de fond pour couvrir la div */
+    background-position: center center; /* Centrer l'image de fond horizontalement et verticalement */
 }
+
+.Bbloc1 {
+    position: absolute;
+    width: 32%; /* Largeur de la div conteneur */
+    height: 200px; /* Hauteur de la div conteneur */
+    display: flex; /* Utilisation du modèle de boîte flexible pour centrer le contenu */
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    background-color: #ccc; /* Couleur de fond de la div conteneur */
+    padding-bottom: 200px;
+    line-height: 1.5;
+}
+
+.Bbloc1a {
+    text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+    background-color: transparent; /* Couleur de fond de la div texte-centre */
+    padding: 20px; /* Espacement interne pour le texte */
+}
+
+.Bbloc2a:hover{
+    background-color: #8da881;
+}
+.Bbloc2{
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+}
+.Bbloc2a {
+    position: relative;
+    width: 220px;
+    height: 196px;
+    background-color: #ffbc2c;
+    margin-right: 10px; /* Espacement horizontal */
+    margin-bottom: 10px; /* Espacement vertical */
+    display: inline-block; /* Pour afficher les blocs en ligne */
+    padding: 5px;
+    text-align: center;
+}
+
+/* Supprimer la marge de droite du dernier bloc */
+.Bbloc2a:last-child {
+    margin-right: 0;
+}
+
+/* Met le texte p2 en survolage blanc */
+p2:hover{
+    background-color: white;
+}
+
+/*<------------------------------------------- /\ Bblock /\ -------------------------------------------------->*/
+/*<------------------------------------------- \/ Cblock \/ -------------------------------------------------->*/
+
+.Cbloc{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 450px;
+    justify-content: center; /* Centre horizontalement le contenu */
+}
+
+.image-fond3{
+    position: absolute; /* Permet d'ajuster les éléments enfants par rapport à cette div */
+    width: 100%; /* Largeur de la div */
+    background-size: cover; /* Redimensionner l'image de fond pour couvrir la div */
+    background-position: center center; /* Centrer l'image de fond horizontalement et verticalement */
+}
+
+.Cbloc1 {
+    position: absolute;
+    width: 32%; /* Largeur de la div conteneur */
+    height: 200px; /* Hauteur de la div conteneur */
+    display: flex; /* Utilisation du modèle de boîte flexible pour centrer le contenu */
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    background-color: #ccc; /* Couleur de fond de la div conteneur */
+    padding-bottom: 200px;
+    line-height: 1.5;
+}
+
+.Cbloc1a {
+    text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+    background-color: transparent; /* Couleur de fond de la div texte-centre */
+    padding: 20px; /* Espacement interne pour le texte */
+}
+
+.Cbloc2a:hover{
+    background-color: #8da881;
+}
+.Cbloc2{
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+}
+.Cbloc2a {
+    position: relative;
+    width: 220px;
+    height: 196px;
+    background-color: #ffbc2c;
+    margin-right: 10px; /* Espacement horizontal */
+    margin-bottom: 10px; /* Espacement vertical */
+    display: inline-block; /* Pour afficher les blocs en ligne */
+    padding: 5px;
+    text-align: center;
+}
+
+/* Supprimer la marge de droite du dernier bloc */
+.Cbloc2a:last-child {
+    margin-right: 0;
+}
+
+/* Met le texte p2 en survolage blanc */
+p2:hover{
+    background-color: white;
+}
+
+/*<------------------------------------------- /\ Cblock /\ -------------------------------------------------->*/
+/*<------------------------------------------- \/ ?block \/ -------------------------------------------------->*/
