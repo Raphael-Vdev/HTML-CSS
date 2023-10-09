@@ -1,50 +1,74 @@
-.container{
+.Box_bg{
     display: flex;
     flex-wrap: wrap;
+    background: #056da9;
+    width: 500px;
+    height: 81vh;
+}
+
+/* Zone Orange */
+.containerO{
+    display: flex;
+    flex-wrap: nowrap;
+    width:100%;
+    height:90px;
+}
+
+.orange{
+    display: flex;
+    background:rgb(255, 119, 29);
+    height: 100px;
+    width: 479px;
+    align-content: center;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+/* Zone Gray & Yellow */
+.containerGY{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: center;
-    background-color: blueviolet;
-    height: 100vh;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.cubFond{
-    display: flex;
-
-
-    width: 550px;
-    height: 550px;
-    max-width: 550px;
-    max-height: 550px;
-    border: 4px solid 
+    width:100%;
+    height:245px;
 }
 
-
-.box1{
+.gray{
     display: flex;
-    background:turquoise;
+    background:rgb(87, 87, 87);
+    height: 220px;
+    width: 50%;
+    margin-top: 2%;
+    margin-right: -1%;
+    margin-left: 3%;
+}
+
+.yellow{
+    display: flex;
+    background:rgb(255, 230, 3);
+    height: 220px;
+    width: 50%;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.containerG{
+    display: flex;
+    flex-wrap: nowrap;
+    width:100%;
+    height: 90px;
+}
+
+.green{
+    display: flex;
+    background:rgb(22, 134, 22);
     height: 100px;
-}
-
-.box2{
-    display: flex;
-    height: 200px;
-    width: 100%;
-}
-
-.bbox1{
-    background: blue;
-    display: flex;
-    width: 30%;
-}
-
-.bbox2{
-    background: rgb(203, 232, 17);
-    display: flex;
-    width: 70%;
-}
-
-.box3{
-    display: flex;
-    background:rgb(7, 84, 14);
-    height: 100px;
+    width:100%;
+    align-content: center;
+    margin-top: -3%;
+    margin-right: 3%;
+    margin-left: 3%;
 }
