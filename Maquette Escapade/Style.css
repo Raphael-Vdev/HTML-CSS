@@ -184,12 +184,11 @@ a{
 
 .Cbloc1 {
     position: relative;
-    width: 32%; /* Largeur de la div conteneur */
+    width: 22%; /* Largeur de la div conteneur */
     height: 200px; /* Hauteur de la div conteneur */
     display: flex; /* Utilisation du modèle de boîte flexible pour centrer le contenu */
     justify-content: center; /* Centre horizontalement le contenu */
-    align-items: center; /* Centre verticalement le contenu */
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     line-height: 1.5;
 }
 
@@ -216,7 +215,7 @@ a{
 .Cbloc1b {
     position: absolute;
     background: green;
-    height: 350px;
+    height: 230px;
     width: 380px;
     text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
     margin-left: 140%;
