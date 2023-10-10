@@ -129,7 +129,8 @@ a{
 }
 
 .Bbloc2a:hover{
-    background-color: #8da881;
+    background-color: #8da881 ;
+
 }
 .Bbloc2{
     position: absolute;
@@ -154,9 +155,10 @@ a{
 }
 
 /* Met le texte p2 en survolage blanc */
-p2:hover{
+.Bbloc2a:hover .p2 {
     background-color: white;
 }
+
 
 /*<------------------------------------------- /\ Bblock /\ -------------------------------------------------->*/
 /*<------------------------------------------- \/ Cblock \/ -------------------------------------------------->*/
@@ -164,6 +166,7 @@ p2:hover{
 .Cbloc{
     position: absolute;
     display: flex;
+    background: purple;
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
@@ -180,23 +183,46 @@ p2:hover{
 }
 
 .Cbloc1 {
-    position: absolute;
+    position: relative;
     width: 32%; /* Largeur de la div conteneur */
     height: 200px; /* Hauteur de la div conteneur */
     display: flex; /* Utilisation du modèle de boîte flexible pour centrer le contenu */
     justify-content: center; /* Centre horizontalement le contenu */
     align-items: center; /* Centre verticalement le contenu */
-    background-color: #ccc; /* Couleur de fond de la div conteneur */
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     line-height: 1.5;
 }
 
 .Cbloc1a {
+    position: absolute;
+    background: green;
+    height: 350px;
+    width: 380px;
     text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
-    background-color: transparent; /* Couleur de fond de la div texte-centre */
-    padding: 20px; /* Espacement interne pour le texte */
+    margin-right: 245%;
+    margin-top: 50%;
+}
+.titrecb{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background: red;
+    height: max-content;
+    width: 780px;
+    margin-top: 20px;
+
 }
 
+.Cbloc1b {
+    position: absolute;
+    background: green;
+    height: 350px;
+    width: 380px;
+    text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+    margin-left: 140%;
+    margin-top: 50%;
+
+}
 .Cbloc2a:hover{
     background-color: #8da881;
 }
@@ -217,14 +243,8 @@ p2:hover{
     text-align: center;
 }
 
-/* Supprimer la marge de droite du dernier bloc */
-.Cbloc2a:last-child {
-    margin-right: 0;
-}
-
-/* Met le texte p2 en survolage blanc */
-p2:hover{
-    background-color: white;
+.p4{
+    color: white;
 }
 
 /*<------------------------------------------- /\ Cblock /\ -------------------------------------------------->*/
