@@ -1,0 +1,2 @@
+format tablette 768px
+format portable 320px
