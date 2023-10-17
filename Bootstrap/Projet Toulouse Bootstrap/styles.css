@@ -1,0 +1,18 @@
+*{
+    color: #cc0022;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pink{
+    background-color: #e079ac;
+}
+
+.global-container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+video {
+    object-fit: cover;
+}
+
