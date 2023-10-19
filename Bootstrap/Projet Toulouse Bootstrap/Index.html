@@ -11,75 +11,96 @@
 </head>
 
 <body class="global-container">
-    <!--- Navigation --->
-    <nav class="global-container w-100 justify-content-center sticky-top nav pink">
-        <a href="#Home" class="nav-link fs-5 text-dark">Accueil</a>
-        <a href="#Gastronomie" class="nav-link fs-5 text-dark">Gastronomie</a>
-        <a href="#Rensignements" class="nav-link fs-5 text-dark">Rensignements</a>
-        <a href="#Lieux touristique" class="nav-link fs-5 text-dark">Lieux touristique</a>
-        <button class="position-absolute end-0 text-danger p-2 m-2">Connexion / Inscription</button>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark pink ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Toulouse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lieux touristique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gastronomie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galerie</a>
+                    </li>
+                    <button class="position-relative sticky-top border-radius-20 text-danger p-1 m-3">Connexion / Inscription</button>
+                </ul>
+            </div>
+        </div>
     </nav>
 
+    <nav class="global-container w-100 justify-content-center sticky-top nav pink">
+        <a href="#Home" class="nav-link fs-5 text-dark"></a>
+        <a href="#Gastronomie" class="nav-link fs-5 text-dark"></a>
+        <a href="#Rensignements" class="nav-link fs-5 text-dark"></a>
+        <a href="#Lieux touristique" class="nav-link fs-5 text-dark"></a>
+    </nav>
+
+
     <!--- video --->
-    <div class="h-100 w-100 position-relative">
-        <video autoplay loop muted src="./img/Moviebg-rugby-world-cup.mp4" class="position-absolute w-100"></video>   
-        <div class="position-relative d-flex  justify-content-center align-items-center h-100 w-100 pb-5">
-            <p class="text-light">Toulouse</p>
-            <p class="text-light">------ La ville rose ------</p>
-            <h1 class="text-light ">Toulouse</h1>
+   
+    <div class="h-100 w-100 position-absolute ">
+        <video autoplay loop muted src="./img/Moviebg-rugby-world-cup.mp4" class="position-absolute w-100"></video>
+        <div class="position-relative  oppacity d-flex pb-5">
+            <div class="container">
+                    <div class="position-relative d-flex flex-column justify-content-center align-items-center border-wrapper mt-5">
+                        <h1 class="text-light ">Bienvenue à Toulouse</h1>
+                    </div>
+            </div>
         </div>
     </div>
-
-    <!-- <-- Section 1 --> 
-    <section id="features" class="container pb-5">
-        <p class="fs-5 text-dark mb-mt-0 mt-4 text-center">Informations</p>
-        <h2 class="text-center display-4 mb-mt-0">Pourquoi Toulouse est surnommée la ville rose ?</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center pt-4 pb-5 mt-md-5 mt-0">
-                - div 1 -
-            <div class="d-flex flex-column align-items-center">
-                <div class="row justify-content-center">
-                    <img src="./img/chat.svg" alt="chat icon" class="col-4">
+        <!-- <-- Section 1 -->
+        
+        <main class="container my-5">
+            <h2>Galerie de Toulouse</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./img/image-1.jpg" class="card-img-top" alt="Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Place du Capitole</h5>
+                            <p class="card-text">La Place du Capitole est un endroit emblématique de Toulouse.</p>
+                        </div>
+                    </div>
                 </div>
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem lorem lorem</p>
-            </div>
-                - div 2 -
-            <div class="d-flex flex-column align-items-center">
-                <div class="row justify-content-center">
-                    <img src="./img/transfer.svg" alt="tran icon" class="col-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./img/image-2.jpg" class="card-img-top" alt="Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Basilique Saint-Sernin</h5>
+                            <p class="card-text">La Basilique Saint-Sernin est un chef-d'œuvre de l'architecture romane.</p>
+                        </div>
+                    </div>
                 </div>
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem lorem lorem</p>
-            </div>
-                - div 3 -
-            <div class="d-flex flex-column align-items-center">
-                <div class="row justify-content-center">
-                    <img src="./img/coding.svg" alt="codi icon" class="col-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./img/image-3.jpg" class="card-img-top" alt="Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Canal du Midi</h5>
+                            <p class="card-text">Le Canal du Midi traverse Toulouse et est classé au patrimoine mondial de l'UNESCO.</p>
+                        </div>
+                    </div>
                 </div>
-                <h2>Lor m dolor</h2>
-                <p>Lorem lorem lorem</p>
             </div>
-        </div>
-    </section>
+        </main>
 
+        <!-- - Zone 2 - -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>© 2023 Mon Site sur Toulouse</p>
+        </footer>
 
-    <!-- - Zone 2 - -->
-    <section class="border-wrapper border-top pb-5 mb-5">
-        <div class="container">
-        <h2 class="text-center display-4 mt-md-5">Lorem ipsum</h2>
-        <p class="fs-5 text-dark mb-mb-5 mb-4 text-center">Lorem ipsum</p>
-        <div class="row g-3 row-cols-1 row-cols-lg-2">
-        </div>
-    </div>
-    </section>
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 
 </body>
 
